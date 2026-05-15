@@ -4,8 +4,8 @@ import { Enemy } from './enemy.js';
 import { Bullet } from './bullet.js';
 
 import { Particle } from './particles.js';
-import { FastEnemy } from './fastEnemy.js';
-import { TankEnemy } from './tankEnemy.js';
+import { FastEnemy } from './temp.js';
+import { TankEnemy } from './temp2.js';
 
 const input = {
   keys: new Set(),
