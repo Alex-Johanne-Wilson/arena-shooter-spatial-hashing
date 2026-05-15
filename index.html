@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>2D Arena Shooter — Spatial Hashing</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="root">
+      <canvas id="game" width="960" height="640"></canvas>
+      <div id="hud">
+        <div class="hud-left">
+          <span id="score">Score: 0</span>
+          <span id="health">Health: ❤❤❤</span>
+        </div>
+        <div class="hud-right">
+          <span id="fps">FPS: 0</span>
+        </div>
+      </div>
+      <div id="help">
+  WASD Move • Mouse Aim • Space Shoot • B Stress Test • H Toggle Hashing • R Restart
+</div>
+    </div>
+
+    <script type="module" src="game.js"></script>
+  </body>
+  </html>
+
+
+
